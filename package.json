@@ -1,0 +1,53 @@
+{
+  "name": "buttercoin",
+  "version": "0.0.3",
+  "description": "Open Source Globe Exchange",
+  "main": "./lib/",
+  "scripts": {
+    "start": "bin/dev-standalone",
+    "test": "sh test.sh"
+  },
+  "engine": "node >= 0.10.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buttercoin/buttercoin.git"
+  },
+  "dependencies": {
+    "buttercoin-engine": "git://github.com/buttercoin/buttercoin-engine.git#master",
+    "isnode": "*",
+    "ws": "*",
+    "wsany": "*",
+    "stump": "0.0.4",
+    "enkihelpers": "*",
+    "enkicolor": "*",
+    "q": "*",
+    "q-io": "*",
+    "eemitterport": "*",
+    "chained-emitter": "*",
+    "deque": "*",
+    "redblack": "*",
+    "jspack": "*",
+    "express": "3.2.0",
+    "connect": "2.7.6",
+    "engine.io-client": "0.5.0",
+    "engine.io": "0.5.0",
+    "underscore": "*",
+    "optimist": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "should": "*",
+    "coffee-script": "*",
+    "sinon": "*",
+    "sinon-chai": "*",
+    "temporary": "*"
+  },
+  "keywords": [
+    "globe",
+    "buttercoin"
+  ],
+  "author": "Buttercoin Developers (http://github.com/buttercoin/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
